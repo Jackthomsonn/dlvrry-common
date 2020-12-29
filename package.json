@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jack Thomson <hello@jackthomson.co.uk> (http://www.jackthomson.co.uk)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-admin": "^9.4.2"
+  }
 }
