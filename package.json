@@ -1,6 +1,7 @@
 {
   "name": "@dlvrry/dlvrry-common",
   "version": "0.0.1",
+  "type": "module",
   "description": "Dlvrry Common Library Of Interfaces And Enums",
   "main": "index.js",
   "scripts": {
@@ -10,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "firebase-admin": "^9.4.2"
-  }
+  },
+  "dependencies": {}
 }
