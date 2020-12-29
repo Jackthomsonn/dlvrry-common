@@ -1,5 +1,5 @@
 import { Role } from './../enums/role/index';
-import { VerificationStatus } from './../enums/verificationStatus/index';
+import { VerificationStatus } from './../enums/verification_status/index';
 
 export interface IUser {
   readonly id: string;

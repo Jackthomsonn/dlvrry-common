@@ -1,6 +1,6 @@
 import * as admin from 'firebase-admin';
 
-import { JobStatus } from '../enums/status';
+import { JobStatus } from '../enums/job_status';
 
 export interface IJob {
   readonly id: string;
