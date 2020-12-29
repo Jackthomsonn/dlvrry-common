@@ -1,0 +1,11 @@
+{
+  "name": "@dlvrry/dlvrry-common",
+  "version": "0.0.1",
+  "description": "Dlvrry Common Library Of Interfaces And Enums",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Thomson <hello@jackthomson.co.uk> (http://www.jackthomson.co.uk)",
+  "license": "ISC"
+}
