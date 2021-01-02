@@ -5,7 +5,7 @@ export interface IUser {
   readonly id: string;
   name: string;
   email: string;
-  role: AccountType,
+  account_type: AccountType,
   connected_account_id: string;
   account_link_url: string;
   customer_id: string;
