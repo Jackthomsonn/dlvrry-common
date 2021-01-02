@@ -7,4 +7,5 @@ var VerificationStatus;
     VerificationStatus["FAILED"] = "failed";
     VerificationStatus["CANCELLED"] = "cancelled";
     VerificationStatus["PENDING"] = "pending";
+    VerificationStatus["NEEDS_VERIFICATION"] = "need_verification";
 })(VerificationStatus = exports.VerificationStatus || (exports.VerificationStatus = {}));
