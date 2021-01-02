@@ -11,5 +11,5 @@ export interface IUser {
   customer_id: string;
   verification_status: VerificationStatus;
   verified: boolean;
-  cancelled_job: number;
+  cancelled_jobs: number;
 }
