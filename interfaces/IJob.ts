@@ -3,7 +3,7 @@ import * as admin from 'firebase-admin';
 import { JobStatus } from '../enums/job_status';
 
 export interface IJob {
-  readonly id: string;
+  id?: string;
   owner_name: string;
   owner_id: string;
   rider_id: string;
@@ -12,5 +12,5 @@ export interface IJob {
   number_of_items: number;
   payout: number;
   cost: number;
-  status: JobStatus;
+  status?: JobStatus;
 }

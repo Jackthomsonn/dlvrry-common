@@ -1,12 +1,10 @@
 {
-  "name": "@dlvrry/dlvrry-common",
-  "version": "0.0.1",
+  "name": "dlvrry-common",
+  "version": "0.0.3",
   "description": "Dlvrry Common Library Of Interfaces And Enums",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jack Thomson <hello@jackthomson.co.uk> (http://www.jackthomson.co.uk)",
+  "private": false,
+  "author": "Jack Thomson",
   "license": "ISC",
   "devDependencies": {
     "firebase-admin": "^9.4.2"

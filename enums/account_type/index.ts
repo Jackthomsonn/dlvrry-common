@@ -1,5 +1,6 @@
 export enum AccountType {
   BUSINESS = 'business',
   RIDER = 'rider',
-  NONE = 'none'
+  PLATFORM = 'platform',
+  NONE = 'none',
 }

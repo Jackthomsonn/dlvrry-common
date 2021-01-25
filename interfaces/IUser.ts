@@ -2,7 +2,7 @@ import { AccountType } from './../enums/account_type/index';
 import { VerificationStatus } from './../enums/verification_status/index';
 
 export interface IUser {
-  readonly id: string;
+  id?: string;
   name: string;
   email: string;
   account_type: AccountType,

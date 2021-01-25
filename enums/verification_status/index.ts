@@ -1,7 +1,7 @@
 export enum VerificationStatus {
-  COMPLETED = 'completed',
+  COMPLETED = 'complete',
   FAILED = 'failed',
   CANCELLED = 'cancelled',
   PENDING = 'pending',
-  NEEDS_VERIFICATION = 'need_verification'
+  NEEDS_VERIFICATION = 'awaiting_verification'
 }
