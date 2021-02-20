@@ -13,4 +13,6 @@ export interface IJob {
   payout: number;
   cost: number;
   status?: JobStatus;
+  charge_id?: string;
+  payment_captured: boolean;
 }

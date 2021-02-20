@@ -8,4 +8,6 @@ var JobStatus;
     JobStatus["COMPLETED"] = "completed";
     JobStatus["CANCELLED"] = "cancelled";
     JobStatus["REFUNDED"] = "refunded";
+    JobStatus["CANCELLED_BY_OWNER"] = "cancelled_by_owner";
+    JobStatus["AWAITING_PAYMENT"] = "awaiting_payment";
 })(JobStatus = exports.JobStatus || (exports.JobStatus = {}));

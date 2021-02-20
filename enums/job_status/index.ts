@@ -4,4 +4,6 @@ export enum JobStatus {
   COMPLETED = 'completed',
   CANCELLED = 'cancelled',
   REFUNDED = 'refunded',
+  CANCELLED_BY_OWNER = 'cancelled_by_owner',
+  AWAITING_PAYMENT = 'awaiting_payment',
 }
