@@ -3,5 +3,13 @@ export enum VerificationStatus {
   FAILED = 'failed',
   CANCELLED = 'cancelled',
   PENDING = 'pending',
-  NEEDS_VERIFICATION = 'awaiting_verification'
+  PENDING_VERIFICATION = 'pending_verification',
+  PAST_DUE = 'past_due',
+  REJECTED_FRAUDULENT = 'fraud',
+  REJECTED_TERMS_OF_SERVICE = 'terms_of_service',
+  REJECTED_LISTED = 'rejected_listed',
+  REJECTED_OTHER = 'rejected_other',
+  LISTED = 'listed',
+  UNDER_REVIEW = 'under_review',
+  OTHER = 'other',
 }
