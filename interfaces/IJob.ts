@@ -4,6 +4,7 @@ import { JobStatus } from '../enums/job_status';
 
 export interface IJob {
   id?: string;
+  created: string;
   owner_name: string;
   owner_id: string;
   rider_id: string;
@@ -12,6 +13,7 @@ export interface IJob {
   number_of_items: number;
   payout: number;
   cost: number;
+  customer_location_name: string;
   status?: JobStatus;
   charge_id?: string;
   payment_captured: boolean;
