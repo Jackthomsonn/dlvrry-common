@@ -1,13 +1,13 @@
 {
   "name": "dlvrry-common",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "description": "Dlvrry Common Library Of Interfaces And Enums",
   "main": "index.js",
   "private": false,
   "author": "Jack Thomson",
   "license": "ISC",
   "devDependencies": {
-    "firebase-admin": "^9.4.2"
+    "firebase-admin": "^9.5.0"
   },
   "dependencies": {}
 }

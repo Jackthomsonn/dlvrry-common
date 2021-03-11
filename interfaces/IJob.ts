@@ -16,5 +16,7 @@ export interface IJob {
   customer_location_name: string;
   status?: JobStatus;
   charge_id?: string;
+  complete_payment_link?: string;
+  complete_payment_method_link?: string;
   payment_captured: boolean;
 }
