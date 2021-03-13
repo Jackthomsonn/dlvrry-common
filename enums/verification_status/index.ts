@@ -1,5 +1,5 @@
 export enum VerificationStatus {
-  COMPLETED = 'complete',
+  COMPLETE = 'complete',
   FAILED = 'failed',
   CANCELLED = 'cancelled',
   PENDING = 'pending',
