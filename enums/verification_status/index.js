@@ -3,7 +3,7 @@ exports.__esModule = true;
 exports.VerificationStatus = void 0;
 var VerificationStatus;
 (function (VerificationStatus) {
-    VerificationStatus["COMPLETED"] = "complete";
+    VerificationStatus["COMPLETE"] = "complete";
     VerificationStatus["FAILED"] = "failed";
     VerificationStatus["CANCELLED"] = "cancelled";
     VerificationStatus["PENDING"] = "pending";

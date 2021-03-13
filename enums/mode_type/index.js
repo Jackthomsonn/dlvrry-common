@@ -6,5 +6,4 @@ var ModeType;
     ModeType["CAR"] = "car";
     ModeType["BIKE"] = "bike";
     ModeType["MOPED"] = "moped";
-    ModeType["NOT_APPLICABLE"] = "not_applicable";
 })(ModeType = exports.ModeType || (exports.ModeType = {}));
