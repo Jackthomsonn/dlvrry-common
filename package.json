@@ -1,6 +1,6 @@
 {
   "name": "dlvrry-common",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Dlvrry Common Library Of Interfaces And Enums",
   "main": "index.js",
   "private": false,
