@@ -15,4 +15,5 @@ export interface IUser {
   connected_account_id?: string;
   account_link_url?: string;
   push_token?: string;
+  last_cancelled_job_date?: string;
 }
