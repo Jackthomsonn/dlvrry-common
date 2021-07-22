@@ -1,6 +1,6 @@
-import { AccountType } from './../enums/account_type/index';
-import { ModeType } from './../enums/mode_type/index';
-import { VerificationStatus } from './../enums/verification_status/index';
+import { AccountType } from "./../enums/account_type/index";
+import { ModeType } from "./../enums/mode_type/index";
+import { VerificationStatus } from "./../enums/verification_status/index";
 
 export interface IUser {
   id: string;
@@ -14,4 +14,5 @@ export interface IUser {
   mode?: ModeType;
   connected_account_id?: string;
   account_link_url?: string;
+  push_token?: string;
 }

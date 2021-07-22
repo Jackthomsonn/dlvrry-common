@@ -1,4 +1,4 @@
 node_modules
 enums/**/*.js
-interfaces/*.js
+
 index.js
