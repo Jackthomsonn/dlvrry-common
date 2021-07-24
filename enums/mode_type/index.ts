@@ -1,5 +1,4 @@
 export enum ModeType {
-  CAR = 'car',
-  BIKE = 'bike',
-  MOPED = 'moped'
+  CAR = "driving",
+  BIKE = "bicycling",
 }
